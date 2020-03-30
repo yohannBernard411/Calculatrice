@@ -1,0 +1,38 @@
+<Doctype html>
+<html>
+<head>
+<title>CalculatriceJS</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!--Corp html--> 
+
+<div id="container">
+   <label id="label"></label>
+   <div id="touches">
+      <button onclick="resetAll(this)">C</button>
+      <button onclick="operateur('/', this)">÷</button>
+      <button onclick="operateur('*', this)">×</button>
+      <button onclick="retour(this)"><=</button>
+      <button onclick="chiffre(7, this)">7</button>
+      <button onclick="chiffre(8, this)">8</button>
+      <button onclick="chiffre(9, this)">9</button>
+      <button onclick="operateur('-', this)">-</button>
+      <button onclick="chiffre(4, this)">4</button>
+      <button onclick="chiffre(5, this)">5</button>
+      <button onclick="chiffre(6, this)">6</button>
+      <button onclick="operateur('+', this)">+</button>
+      <button onclick="chiffre(1, this)">1</button>
+      <button onclick="chiffre(2, this)">2</button>
+      <button onclick="chiffre(3, this)">3</button>
+      <button onclick="parentheses(this)">( )</button>
+      <button onclick="chiffre(0, this)">0</button>
+      <button onclick="virgule(this)">,</button>
+      <button id="color" onclick="changeColor()"></button>
+      <button onclick="resultat(this)">=</button>
+   </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
